@@ -1,0 +1,49 @@
+  .carouselContainer {
+    width: 80vw;
+    padding: 1vw;
+  }
+  
+  .carouselCard {
+    display: flex;
+    padding: 2vw;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carouselCard img {
+    width: 11vw;
+    height: 11vw;
+    margin-left: 2vw;
+    transition: transform 0.3s ease;
+  }
+
+  .carouselCard:hover img {
+    transform: scale(1.15);
+    cursor: default;
+  }
+
+  .cardTitle {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    font-size: 1vw;
+    text-align: center;
+    margin-top: .7vw;
+  }
+
+  .descriptionContainer{
+    height: 5vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .descriptionText{
+    font-size: 1vw;
+    text-align: center;
+  }
